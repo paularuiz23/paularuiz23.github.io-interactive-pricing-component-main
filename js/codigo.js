@@ -28,9 +28,12 @@ slider.addEventListener("input",function (){
     let color = `linear-gradient(90deg, rgb(184, 250, 243) ${x}%, silver ${x}%)`;
     slider.style.background = color;
 
+    printPageViews ();
+    
     if (promoSwitch.checked == true){
         let x = price.textContent*0.25;
         price.textContent = price.textContent - x;
+        console.log(x);
     }else{
         printPageViews ();
     };
@@ -40,6 +43,7 @@ promoSwitch.addEventListener("input",function (){
     if (promoSwitch.checked == true){
         let x = price.textContent*0.25;
         price.textContent = price.textContent - x;
+        console.log(x);
     }else{
         printPageViews ();
     };
