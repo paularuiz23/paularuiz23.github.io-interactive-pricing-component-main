@@ -6,19 +6,19 @@ let promoSwitch = document.querySelector("#switch");
 function printPageViews (){
     if(slider.value == "0"){
         pageViews.textContent = "10K";
-        price.textContent = "$8.00";
+        price.textContent = "8";
     }else if(slider.value == "25"){
         pageViews.textContent = "50K";
-        price.textContent = "$12.00";
+        price.textContent = "12";
     }else if(slider.value == "50"){
         pageViews.textContent = "100K";
-        price.textContent = "$16.00";
+        price.textContent = "16";
     }else if(slider.value == "75"){
         pageViews.textContent = "500K";
-        price.textContent = "$24.00";
+        price.textContent = "24";
     }else if(slider.value == "100"){
         pageViews.textContent = "1M";
-        price.textContent = "$36.00";
+        price.textContent = "36";
     };
 };
 
@@ -33,9 +33,8 @@ slider.addEventListener("input",function (){
 
 promoSwitch.addEventListener("input",function (){
     if (promoSwitch.checked == true){
-        let x = value.textContent*0.25;
+        let x = promoSwitch.textContent*0.25;
         price.textContent = price.textContent - x;
-        console.log(x);
     }else{
         printPageViews ();
     };
