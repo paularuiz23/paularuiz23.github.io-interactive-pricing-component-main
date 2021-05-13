@@ -92,7 +92,7 @@ body{
         margin:30px 0 20px 0;
         -webkit-appearance: none;
         -moz-appearance: none;
-        background: linear-gradient(90deg, rgb(184, 250, 243)25%, silver 25%);
+        background: linear-gradient(90deg, rgb(184, 250, 243)50%, silver 50%);
         height: 10px;
         width: 100%;
         border-radius: 5px;
@@ -277,7 +277,7 @@ body{
         margin:30px 0 20px 0;
         -webkit-appearance: none;
         -moz-appearance: none;
-        background: linear-gradient(90deg, rgb(184, 250, 243)25%, silver 25%);
+        background: linear-gradient(90deg, rgb(184, 250, 243)50%, silver 50%);
         height: 10px;
         width: 100%;
         border-radius: 5px;
@@ -453,7 +453,7 @@ body{
         margin:30px 0 20px 0;
         -webkit-appearance: none;
         -moz-appearance: none;
-        background: linear-gradient(90deg, rgb(184, 250, 243)25%, silver 25%);
+        background: linear-gradient(90deg, rgb(184, 250, 243)50%, silver 50%);
         height: 10px;
         width: 100%;
         border-radius: 5px;
