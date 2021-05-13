@@ -33,7 +33,7 @@ slider.addEventListener("input",function (){
 
 promoSwitch.addEventListener("input",function (){
     if (promoSwitch.checked == true){
-        let x = promoSwitch.textContent*0.25;
+        let x = price.textContent*0.25;
         price.textContent = price.textContent - x;
     }else{
         printPageViews ();
